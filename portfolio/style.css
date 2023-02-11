@@ -1,0 +1,29 @@
+h1 {
+    font-size: 300%;
+    font-family:verdana;
+    text-align: left;
+}
+
+p {
+    font-size: 150%;
+    margin: 30px;
+}
+
+.info {
+    background-color: beige;
+}
+
+.projects {
+    background-color: lightblue;
+}
+
+li {
+    font-size: 200%;
+    display: inline;
+    color: black;
+    margin-right: 50px;
+}
+
+ul {
+    background-color: gray;
+}
