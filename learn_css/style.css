@@ -4,8 +4,15 @@ body {
 
 p {
     color: red;
+    border: 2px solid blue;
+    padding: 30px;
+    margin: 50px;
 }
 
 h1 {
     color:blueviolet;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
