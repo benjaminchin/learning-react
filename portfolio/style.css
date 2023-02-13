@@ -1,29 +1,43 @@
-h1 {
-    font-size: 300%;
-    font-family:verdana;
-    text-align: left;
-}
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@import 'https://fonts.googleapis.com/css?family=Roboto:700';
 
-p {
-    font-size: 150%;
-    margin: 30px;
-}
 
-.info {
-    background-color: beige;
-}
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+ }
 
-.projects {
-    background-color: lightblue;
-}
+ #name {
+    font-family: 'Roboto';
+    font-size: 5rem;
+    font-weight: 700;
+ }
 
-li {
-    font-size: 200%;
-    display: inline;
+ .navbar__link {
+    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+ }
+
+ span.link {
     color: black;
-    margin-right: 50px;
-}
+ }
 
-ul {
-    background-color: gray;
-}
+ .button {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: solid;
+    outline-color: green;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    color: green;
+ }
