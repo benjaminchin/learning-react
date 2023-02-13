@@ -10,10 +10,13 @@
     scroll-behavior: smooth;
     background:#292C35;
     font-family: 'Roboto';
+    line-height: 1.5;
  }
 
  .wrapper {
    background: #292C35;
+   margin: 0 auto;
+   width: 100%;
  }
 
  #name {
@@ -32,7 +35,11 @@
 
  #hello {
    font-family: 'Jetbrains Mono';
-   color: #C678DD;  
+   color: #C678DD;
+ }
+
+ .inside {
+   /* border: 1px solid; */
  }
 
  .navbar__menu {
@@ -40,6 +47,8 @@
    display: flex;
    justify-content: right;
    margin-right: 30px;
+   margin-bottom: 200px;
+   
  }
 
  .navbar__link {
@@ -50,7 +59,8 @@
     justify-content: center;
     color: #C678DD;
     font-family: 'Jetbrains Mono';
-    margin: 30px 20px;
+    margin-right: 50px;
+    margin-top: 30px;
  }
 
  span.link:hover {
@@ -67,26 +77,27 @@
  .button {
     text-decoration: none;
     display: flex;
-    margin-top: 30px;
-    margin-right: 20px;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
     border: none;
     outline: solid;
-    outline-color: #AD585F;
+    outline-color: #C678DD;
     width: 80px;
     height: 40px;
     border-radius: 4px;
-    color: #AD585F;
+    color: #C678DD;
     font-family: 'Jetbrains Mono';
+    background: rgba(198, 120, 221, 0.25);
  }
 
  .bio {
    display: flex;
    margin-top: 30px;
    font-size: 1.2rem;
-   width: 40%;
+   width: 55%;
    color :#A3A4A8;
+   /* border: 1px solid; */
  }
 
  .vt {
@@ -95,12 +106,112 @@
  }
 
  .header {
-   margin-left: 10rem;
-   margin-top: 7rem;
+   display: flex;
+   flex-direction: column; 
+   /* border: 1px solid white; */
+   width: 1000px;
+   height: 270px;
+   /* margin: 0 auto; */
+   margin-top: 0;
+   margin-bottom: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
  }
 
 
- .category {
+ .about {
    color:#A3A4A8;
-   margin-top: 500px;
+   /* border: 1px solid; */
+   display: flex;
+   width: 30%;
+   margin-top: 100px;
+   padding-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   flex-direction: column;
+   text-align:left;
+   font-size: 1.2rem;
+   align-items: left;
  }
+
+ .projects {
+   color:#A3A4A8;
+   /* border: 1px solid; */
+   display: flex;
+   width: 90%;
+   margin-top: 100px;
+   padding-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   flex-direction: column;
+   text-align:left;
+   font-size: 1.2rem;
+   align-items: center;
+ }
+
+ .contact {
+   color:#A3A4A8;
+   /* border: 1px solid; */
+   display: flex;
+   width: 90%;
+   margin-top: 100px;
+   padding-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   flex-direction: column;
+   text-align:left;
+   font-size: 1.2rem;
+   align-items: center;
+   margin-bottom: 100px;
+ }
+
+ .contact .line {
+   width: 576px;
+   height: 1px;
+   background:#fff;
+   opacity: 0.5;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .projects .line {
+   width: 576px;
+   height: 1px;
+   background:#fff;
+   opacity: 0.5;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ .section__title {
+   color:#C678DD;
+   font-family: 'Jetbrains Mono';
+   font-size: 1rem;
+ }
+
+ .about .line {
+   width: 576px;
+   height: 1px;
+   background:#fff;
+   opacity: 0.5;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ span.title {
+   color:#AAA3AA;
+   font-family: 'Roboto';
+   font-size: 1.5rem;
+ }
+
+.skills {
+   font-family: 'Jetbrains Mono';
+   font-size: 0.9rem;
+   margin-left: 20px;
+}
+
+.contact__info {
+   text-decoration: none;
+   color:#C678DD;
+}
