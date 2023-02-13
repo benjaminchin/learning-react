@@ -1,5 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400';
 @import 'https://fonts.googleapis.com/css?family=Roboto:700';
+@import 'https://fonts.googleapis.com/css?family=JetBrains+Mono';
 
 
  * {
@@ -7,12 +8,38 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background:#292C35;
+    font-family: 'Roboto';
+ }
+
+ .wrapper {
+   background: #292C35;
  }
 
  #name {
     font-family: 'Roboto';
     font-size: 5rem;
     font-weight: 700;
+    color: white;
+    margin-top: 30px;
+ }
+
+ #swe {
+   font-weight: 700;
+   color: #AAA3AA;
+   font-size: 5rem;
+ }
+
+ #hello {
+   font-family: 'Jetbrains Mono';
+   color: #C678DD;  
+ }
+
+ .navbar__menu {
+   list-style: none;
+   display: flex;
+   justify-content: right;
+   margin-right: 30px;
  }
 
  .navbar__link {
@@ -21,23 +48,59 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: green;
+    color: #C678DD;
+    font-family: 'Jetbrains Mono';
+    margin: 30px 20px;
+ }
+
+ span.link:hover {
+   color: #C678DD;
+   transition: all 0.5s ease;
  }
 
  span.link {
-    color: black;
+    color: #AAA3AA;
+    font-family: 'Jetbrains Mono';
+    transition: all 0.5s ease;
  }
 
  .button {
     text-decoration: none;
     display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
     align-items: center;
     justify-content: center;
     border: none;
     outline: solid;
-    outline-color: green;
-    width: 60px;
-    height: 30px;
+    outline-color: #AD585F;
+    width: 80px;
+    height: 40px;
     border-radius: 4px;
-    color: green;
+    color: #AD585F;
+    font-family: 'Jetbrains Mono';
+ }
+
+ .bio {
+   display: flex;
+   margin-top: 30px;
+   font-size: 1.2rem;
+   width: 40%;
+   color :#A3A4A8;
+ }
+
+ .vt {
+   text-decoration: none;
+   color: #C678DD;
+ }
+
+ .header {
+   margin-left: 10rem;
+   margin-top: 7rem;
+ }
+
+
+ .category {
+   color:#A3A4A8;
+   margin-top: 500px;
  }
