@@ -17,6 +17,7 @@
    background: #292C35;
    margin: 0 auto;
    width: 100%;
+   transition: all 0.3s ease;
  }
 
  #name {
