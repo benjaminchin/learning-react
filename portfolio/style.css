@@ -149,6 +149,19 @@
    text-align:left;
    font-size: 1.2rem;
    align-items: center;
+   border: 1px solid white;
+   overflow: hidden;
+ }
+
+ #one {
+    width: 400px;
+    justify-self: left;
+    border: 1px solid yellow;
+ }
+
+ #two {
+    overflow: hidden;
+    border: 1px solid green;
  }
 
  .contact {
@@ -238,3 +251,4 @@
 #btn:hover {
    background-color: #C678DD;
 }
+

@@ -1,0 +1,211 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400';
+@import 'https://fonts.googleapis.com/css?family=Roboto:700';
+@import 'https://fonts.googleapis.com/css?family=JetBrains+Mono';
+
+
+* {
+    background-color: #292C35;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+a {
+    color:#C678DD;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Jetbrains Mono', sans-serif;
+    margin-right: 30px;
+}
+
+.navbar a {
+    color: #AAA3AA;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar a:hover {
+    color: #C678DD;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+
+.navbar span {
+    color: #C678DD;
+}
+
+.navbar .button {
+    color:#C678DD;
+    outline: solid;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: rgba(198, 120, 221, 0.25);
+    transition: all 0.5s ease 0s;
+}
+
+.button:hover {
+    background-color: rgba(198, 120, 221, 0.5);
+    transition: all 0.5s ease 0s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-container {
+    width: 50%;
+    margin-bottom: 25%;
+}
+
+.hero-container p {
+    color:#C678DD;
+    font-family: 'Jetbrains Mono', sans-serif;
+    margin-top: 25%;
+}
+
+.hero-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+    color: #fff;
+}
+
+.hero-container h2 {
+    color:#AAA3AA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+}
+
+.hero-container h3 {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    color:#AAA3AA;
+    font-weight: 400;
+}
+
+.hero-container h3 > a {
+    color:#C678DD;
+}
+
+.title {
+    /* border: 1px solid blue; */
+}
+
+.title h1 {
+    color:#AAA3AA;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title span {
+    color:#C678DD;
+    font-family: 'Jetbrains Mono', sans-serif;
+}
+
+.about-container {
+    padding-top: 12.5%;
+    margin-bottom: 25%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    width: 40%;
+}
+
+.about-container h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.skills-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+}
+
+.projects-container {
+    padding-top: 12.5%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25%;
+}
+
+.projects-container h2 {
+    color:#C678DD;
+    font-size: 24px;
+    font-family: 'Jetbrains Mono', sans-serif;
+}
+
+
+/* .projects-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+} */
+
+
+.projects-container p {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    /* border: 1px solid green; */
+    
+}
+
+/* .project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .project1 p {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+} */
+
+/* .project1 h2 {
+    color:#C678DD;
+    font-size: 24px;
+    font-family: 'Jetbrains Mono', sans-serif;
+} */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12.5%;
+}
+
+
+
+.project {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.row {
+    display: flex;
+    gap: 10vh;
+    margin-bottom: 50px;
+}
