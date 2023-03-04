@@ -1,0 +1,5 @@
+var -> function (irrelevant)
+let -> block
+const -> block (read-only) aka CONSTANT
+
+this returns a reference to the current object
